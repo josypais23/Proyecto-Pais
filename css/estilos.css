@@ -1,0 +1,115 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+
+.logo{
+    height: 150px;
+    border: 1px black solid;
+}
+
+.titulos{
+    border: 1px black solid;
+    padding: 15px;
+}
+
+.titulos .uno .dos{
+    background-color: aquamarine;
+}
+
+.navcontenedor{
+    background-color: cadetblue;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navmenu li{
+    padding: 0px 10px 0px 10px;
+}
+
+.navmenu ul li{
+    display: inline-block;
+}
+
+.fotos{
+    width: 12.5em;
+    height: 12.5em;
+}
+
+.productos{
+    display: grid; 
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 50px;
+    grid-template-rows: 400px 400px 400px;
+    background-color: gray;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.productos h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.productos p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.boton{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    color: black;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.boton:hover{
+    background: #4fd9f1;
+    box-shadow: 0 0 10px #4fd9f1, 0 0 15px #4fd9f1, 0 0 30px #4fd9f1;
+}
+
+
+@media screen and (max-width: 380px){
+    .header     {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+    }
+
+@media screen and (max-width: 380px){
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+    }
+}
+}
+
