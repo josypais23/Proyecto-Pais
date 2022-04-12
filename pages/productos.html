@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>NeptunoAromas</title>
     <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,7 +30,7 @@
                 <input type="email" name="usuario">
                 <br>
                 <label for="pontraseña">Contraseña</label>
-                <input type="password" name="contraseña"> 
+                <input type="password" name="contraseña">
                 <br>
                 <input type="submit" value="Enviar">
                 <input type="button" value="Crear Usuario">
@@ -34,103 +39,188 @@
         </div>
     </header>
 
-    <div class="navcontenedor">
-        <nav class="navmenu">
-            <ul>
-                <li class="navegacion"><a href="../index.html">Home</a></li>
-                <li class="navegacion"><a href="./astrologia.html">Astrologia</li>
-                <li class="navegacion"><a href="./productos.html">Productos</a></li>
-                <li class="navegacion"><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
-                <li class="navegacion"><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="astrologia.html">Astrología</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobreNosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="fotos" src="../assets/img/muchasvelas.jpg" class="card-img-top" alt="Velas">
+                <div class="card-body">
+                    <h5 class="card-title">Velas Neptuno</h5>
+                    <p class="card-text">Vela aromática artesanal. Al estar elaborada con cera de soja es más natural y
+                        su
+                        duración es mayor,
+                        supera las 30 horas. Las esencias que usamos son súper concentradas, desde que la encendés hasta
+                        que
+                        termina vas a poder disfrutar de su fragancia.
+                        Fragancias: Azahar, Eucalipto, Flores Blancas, Jazmín, Lemongrass, Melón, Lavanda.
+                        Incluye en su decoración una piedra energética para potenciar su vibración.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="fotos" src="../assets/img/velaamarillaygema.jpg" class="card-img-top" alt="velavioletayema">
+                <div class="card-body">
+                    <h5 class="card-title">Mini Velas</h5>
+                    <p class="card-text">Vela aromática artesanal. Al estar elaborada con cera de soja es más natural y
+                        su
+                        duración es mayor. Las
+                        esencias que usamos son súper concentradas.
+                        Fragancias: Flores Blancas, Reina de la Noche</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="fotos" src="../assets/img/premium.jpg" class="card-img-top" alt="velaspremium">
+                <div class="card-body">
+                    <h5 class="card-title">Velas Premium</h5>
+                    <p class="card-text">Vela aromática artesanal elaborada con cera de soja. Viene decorada e incluye
+                        piedra energética. Son
+                        súper bomba, están hechas con dos fragancias:
+                        - Rosas y Violetas
+                        - Manzana y Canela.
+                        En esta ocasión decidimos realizarlas en vasos. A diferencia de la parafina, la cera de soja es
+                        fácil de
+                        limpiar, simplemente con un poco de agua y detergente se despega fácilmente del recipiente. Así
+                        que una
+                        vez consumida la vela se puede reutilizar el envase.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <section class="productos">
-        <article>
-            <img class="fotos" src="../assets/img/muchasvelas.jpg">
-            <h3>Velas Neptuno</h3>
-            <p>Vela aromática artesanal. Al estar elaborada con cera de soja es más natural y su duración es mayor, supera las 30 horas. Las esencias que usamos son súper concentradas, desde que la encendés hasta que termina vas a poder disfrutar de su fragancia.
-                Fragancias: Azahar, Eucalipto, Flores Blancas, Jazmín, Lemongrass, Melón, Lavanda.
-                Incluye en su decoración una piedra energética para potenciar su vibración.</p>
-            <button class="boton">Comprar</button>
-        </article>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="fotos" src="../assets/img/jabones.jpg" class="card-img-top" alt="jabones">
+                <div class="card-body">
+                    <h5 class="card-title">jabones</h5>
+                    <p class="card-text">Se pueden usar en hornitos difusores, también para perfumar placares y
+                        cajoneras.
+                        Fragancias: Té Verde, Vainicoco.
+                        Presentación de diez unidades en bolsita de organza.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
 
-        <article>
-            <img class="fotos" src="../assets/img/velavioletayema.jpg">
-            <h3>Mini Velas</h3>
-            <p>Vela aromática artesanal. Al estar elaborada con cera de soja es más natural y su duración es mayor. Las esencias que usamos son súper concentradas.
-                Fragancias: Flores Blancas, Reina de la Noche.</p>
-            <button class="boton">Comprar</button>
-        </article>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="fotos" src="../assets/img/Aurica.png" class="card-img-top" alt="Aurica">
+                <div class="card-body">
+                    <h5 class="card-title">Splash Áuricos</h5>
+                    <p class="card-text">Delicada combinación de esencias florales y aceites esenciales que juntos crean
+                        un
+                        elixir que
+                        armoniza y
+                        equilibra el ambiente. Los podés utilizar para aromatizar tu hogar y realizar limpieza
+                        energética.
+                        Además están compuestos con 70 por ciento de alcohol por lo que son sanitizantes.Presentación:
+                        200ml.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
 
-        <article>
-            <img class="fotos" src="../assets/img/premium.jpg">
-            <h3>Velas Premium</h3>
-            <p>Vela aromática artesanal elaborada con cera de soja. Viene decorada e incluye piedra energética. Son súper bomba, están hechas con dos fragancias:
-                - Rosas y Violetas
-                - Manzana y Canela.
-                En esta ocasión decidimos realizarlas en vasos. A diferencia de la parafina, la cera de soja es fácil de limpiar, simplemente con un poco de agua y detergente se despega fácilmente del recipiente. Así que una vez consumida la vela se puede reutilizar el envase.</p>
-            <button class="boton">Comprar</button>
-        </article>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="fotos" src="../assets/img/sahumerios100.jpg" class="card-img-top" alt="sahumerios">
+                <div class="card-body">
+                    <h5 class="card-title">Sahumerios</h5>
+                    <p class="card-text">Nuestros sahumerios son artesanales, realizados con esencias súper concentradas
+                        para llevar ricos
+                        aromas a tu hogar y lograr un momento de relajación. Su duración es prolongada.
+                        Fragancias: Almizcle, Limpieza del Aura, Musk Nag Champa, Reina de la Noche, Sai Baba, Sangre de
+                        Drago,Vainilla.
+                        Presentación: paquete con cinco unidades.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <article>
-            <img class="fotos" src="../assets/img/jabones.jpg">
-            <h3>Bombones Aromáticos</h3>
-            <p>Se pueden usar en hornitos difusores, también para perfumar placares y cajoneras.
-                Fragancias: Té Verde, Vainicoco.
-                Presentación de diez unidades en bolsita de organza.</p>
-            <button class="boton">Comprar</button>
-        </article>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="fotos" src="../assets/img/limpiezaeer.jpg" class="card-img-top" alt="limpiezaeer">
+                <div class="card-body">
+                    <h5 class="card-title">Kit de Limpieza</h5>
+                    <p class="card-text">¿Sentís que estás trabado y no progresás? ¿El cansancio se torna habitual en tu
+                        vida y te sentís
+                        desmotivado y sin ganas? ¿Te invade en tu casa un ambiente pesado y denso? Llegó el momento que
+                        eliminestodas esas energías negativas que permanecen en tu hogar estancadas, te tiran para abajo
+                        y no te
+                        dejan avanzar. Este kit te ayudará a hacer una limpieza profunda de tu ambiente.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
 
-        <article>
-            <img class="fotos" src="../assets/img/Aurica.png">
-            <h3>Splash Áuricos</h3>
-            <p>Delicada combinación de esencias florales y aceites esenciales que juntos crean un elixir que armoniza y equilibra el ambiente. Los podés utilizar para aromatizar tu hogar y realizar limpieza energética. Además están compuestos con 70 por ciento de alcohol por lo que son sanitizantes.Presentación: 200ml.</p>
-            <button class="boton">Comprar</button>
-        </article>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="fotos" src="../assets/img/atrapasueñogrande.jpg" class="card-img-top" alt="atrapasueñogrande">
+                <div class="card-body">
+                    <h5 class="card-title">Atrapasueños</h5>
+                    <p class="card-text">Ideales para decorar tu hogar. Los aros miden 10 cm de diámetro.
+                        Colores: Amarillo Oro, Rojo, Salmón. La antigua leyenda de los indios ojibwa sobre los
+                        atrapasueños habla de que los sueños pasan por la
+                        red filtrando y deslizando los buenos sueños a través de suaves plumas hasta que llegan a
+                        nosotros. Los
+                        malos sueños, sin embargo, son atrapados en el tejido y se queman al amanecer con el primer rayo
+                        del
+                        Sol.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
 
-        <article>
-            <img class="fotos" src="../assets/img/sahumerios100.jpg">
-            <h3>Sahumerios</h3>
-            <p>Nuestros sahumerios son artesanales, realizados con esencias súper concentradas para llevar ricos aromas a tu hogar y lograr un momento de relajación. Su duración es prolongada.
-                Fragancias: Almizcle, Limpieza del Aura, Musk Nag Champa, Reina de la Noche, Sai Baba, Sangre de Drago, Vainilla.
-                Presentación: paquete con cinco unidades.</p>
-            <button class="boton">Comprar</button>
-        </article>
-
-        <article>
-            <img class="fotos" src="../assets/img/limpiezaeer.jpg">
-            <h3>Kit de Limpieza Energética</h3>
-            <p>¿Sentís que estás trabado y no progresás? ¿El cansancio se torna habitual en tu vida y te sentís desmotivado y sin ganas? ¿Te invade en tu casa un ambiente pesado y denso? Llegó el momento que elimines todas esas energías negativas que permanecen en tu hogar estancadas, te tiran para abajo y no te dejan avanzar. Este kit te ayudará a hacer una limpieza profunda de tu ambiente.</p>
-            <button class="boton">Comprar</button>
-        </article>
-
-        <article>
-            <img class="fotos" src="../assets/img/atrapasueñogrande.jpg">
-            <h3>Atrapasueños</h3>
-            <p>Ideales para decorar tu hogar. Los aros miden 10 cm de diámetro.
-                Colores: Amarillo Oro, Rojo, Salmón.
-                La antigua leyenda de los indios ojibwa sobre los atrapasueños habla de que los sueños pasan por la red filtrando y deslizando los buenos sueños a través de suaves plumas hasta que llegan a nosotros. Los malos sueños, sin embargo, son atrapados en el tejido y se queman al amanecer con el primer rayo del Sol.</p>
-            <button class="boton">Comprar</button>
-        </article>
-
-        <article>
-            <img class="fotos" src="../assets/img/empaque.jpg">
-            <h3>Ruedas Energéticas</h3>
-            <p>Cada Chakra representa un centro energético a lo largo de nuestro cuerpo. Actúan en el cuerpo físico, mental, emocional y espiritual. Cuando están sintonizados y en equilibrio sentimos bienestar, armonía, fluir.
-                Cada color simboliza nuestros centros energéticos, Chakras:
-                Rojo - Raíz (Sustento)
-                Naranja - Sacro (Sexual)
-                Amarillo - Plexo Solar (Poder)
-                Verde - Cardíaco (Amor)
-                Celeste - Garganta (Expresión)
-                Violeta - Tercer Ojo (Percepción)
-                Lavanda - Corona (Unión con la Divinidad)
-                Armonizar nuestros Chakras nos permite sentir equilibrio, paz, bienestar, felicidad. Sumalo a tus espacios y conectate con ellos para que la energía obre en ti.</p>
-            <button class="boton">Comprar</button>
-        </article>
-    </section>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="fotos" src="../assets/img/empaque.jpg" class="card-img-top" alt="empaque">
+                <div class="card-body">
+                    <h5 class="card-title">Ruedas Energéticas</h5>
+                    <p class="card-text">Cada Chakra representa un centro energético a lo largo de nuestro cuerpo.Actúan en el cuerpo físico,mental, emocional y espiritual. Cuando están sintonizados y en equilibrio sentimos bienestar,armonía,fluir. Cada color simboliza nuestros centros energéticos, Chakras: Rojo - Raíz(Sustento), Naranja - Sacro (Sexual), Amarillo - Plexo Solar (Poder), Verde - Cardíaco (Amor), Celeste - Garganta (Expresión), Violeta - Tercer Ojo (Percepción), Lavanda - Corona (Unión con la Divinidad), Armonizar nuestros Chakras nos permite sentir equilibrio, paz, bienestar, felicidad. Sumalo a tus espacios y conectate con ellos para que la energía obre en ti.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer">
         <ul>

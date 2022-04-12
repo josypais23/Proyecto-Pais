@@ -5,7 +5,17 @@
     align-items: center;
     background-color: aquamarine;
 }
+.frase{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
 
+.footer{
+    background-color: aquamarine;
+    font-size: 20px;
+}
 
 .logo{
     height: 150px;
@@ -41,8 +51,7 @@ a{
 }
 
 .fotos{
-    width: 12.5em;
-    height: 12.5em;
+    height: 18rem;
 }
 
 .productos{
