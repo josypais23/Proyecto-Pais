@@ -91,6 +91,9 @@ a{
     box-shadow: 0 0 10px #4fd9f1, 0 0 15px #4fd9f1, 0 0 30px #4fd9f1;
 }
 
+.footer{
+    background-image: url(../assets/background/footer.jpg);
+}
 
 @media screen and (max-width: 380px){
     .header     {
