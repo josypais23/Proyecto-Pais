@@ -27,6 +27,13 @@
     padding: 15px;
 }
 
+.fotosobrenosotros{
+    background-image: url(../assets/background/footer.jpg);
+}
+.texto{
+    padding: 20px 0px 0px 50px;
+}
+
 .titulos .uno .dos{
     background-color: aquamarine;
 }
@@ -77,10 +84,10 @@ a{
 .boton{
     position: relative;
     display: inline-block;
-    padding: 8px 20px;
+    padding: none;
     color: black;
-    letter-spacing: 4px;
-    font-size: 15px;
+    letter-spacing: 1px;
+    font-size: 10px;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
@@ -88,7 +95,7 @@ a{
 
 .boton:hover{
     background: #4fd9f1;
-    box-shadow: 0 0 10px #4fd9f1, 0 0 15px #4fd9f1, 0 0 30px #4fd9f1;
+    box-shadow: 0 0 10px #4fd9f1, 0 0 20px #4fd9f1, 0 0 30px #4fd9f1;
 }
 
 footer {
