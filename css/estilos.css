@@ -1,189 +1,191 @@
-.header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aquamarine;
+main {
+  background-image: url(../assets/background/footer.jpg);
 }
-.frase{
-    background-color: aquamarine;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 10px;
+main p {
+  padding: 20px 0px 0px 50px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer{
-    background-color: aquamarine;
-    font-size: 20px;
+header {
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo{
-    height: 150px;
-    border: 1px black solid;
-}
-
-.titulos{
-    border: 1px black solid;
-    padding: 15px;
-}
-
-.fotosobrenosotros{
-    background-image: url(../assets/background/footer.jpg);
-}
-.texto{
-    padding: 20px 0px 0px 50px;
-}
-
-.titulos .uno .dos{
-    background-color: aquamarine;
-}
-
-.navcontenedor{
-    background-color: cadetblue;
-    font-size: 20px;
-    padding: 8px;
-    text-align: center;
-}
-
-a{
-    text-decoration: none;
-}
-
-.navmenu li{
-    padding: 0px 10px 0px 10px;
-}
-
-.navmenu ul li{
-    display: inline-block;
-}
-
-.fotos{
-    height: 18rem;
-}
-
-.productos{
-    display: grid; 
-    grid-template-columns: 33% 33% 33%;
-    padding-left: 50px;
-    grid-template-rows: 400px 400px 400px;
-    background-color: gray;
-    padding-top: 20px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.productos h3{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-}
-
-.productos p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-}
-
-.boton{
-    position: relative;
-    display: inline-block;
-    padding: none;
-    color: black;
-    letter-spacing: 1px;
-    font-size: 10px;
-    text-decoration: none;
-    overflow: hidden;
-    transition: 0.2s;
-}
-
-.boton:hover{
-    background: #4fd9f1;
-    box-shadow: 0 0 10px #4fd9f1, 0 0 20px #4fd9f1, 0 0 30px #4fd9f1;
+section p {
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    font-size: 20px;
-    color: rgb(34 109 141);
-    margin-bottom: 30px;
-    border-bottom: 2px rgb(34 109 141) solid;
-    border-top: 2px rgb(34 109 141) solid;
-    border-radius: 0px;
+  background-color: aquamarine;
+  font-size: 20px;
 }
 
-.redes {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    margin-right: 0px;
-    margin-bottom: 20px;
+.logo {
+  height: 150px;
+  border: 1px black solid;
 }
 
-.contactoContainer {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 20px;
+.titulos {
+  border: 1px black solid;
+  padding: 15px;
 }
 
-.contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0px;
-    font-size: 14px;
+.titulos .uno .dos {
+  background-color: aquamarine;
 }
 
-.productosContainer {
-    margin-left: 0px;
-    color: white;
+.navcontenedor {
+  background-color: cadetblue;
+  font-size: 20px;
+  padding: 8px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navmenu li {
+  padding: 0px 10px 0px 10px;
+}
+
+.navmenu ul li {
+  display: inline-block;
+}
+
+.fotos {
+  height: 18rem;
 }
 
 .productos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 0px 20px 0px;
-    font-size: 14px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding-left: 50px;
+  grid-template-rows: 400px 400px 400px;
+  background-color: gray;
+  padding-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.productos h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.productos p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.boton {
+  position: relative;
+  display: inline-block;
+  padding: none;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 10px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.boton:hover {
+  background: #4fd9f1;
+  box-shadow: 0 0 10px #4fd9f1, 0 0 20px #4fd9f1, 0 0 30px #4fd9f1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 20px;
+  color: rgb(34, 109, 141);
+  margin-bottom: 30px;
+  border-bottom: 2px rgb(34, 109, 141) solid;
+  border-top: 2px rgb(34, 109, 141) solid;
+  border-radius: 0px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.contactoContainer {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.productosContainer {
+  margin-left: 0px;
+  color: white;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+  font-size: 14px;
 }
 
 .copyright {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(34, 109, 141);
+}
+
+@media screen and (max-width: 380px) {
+  .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    font-size: 14px;
-    color: rgb(34 109 141);
+    align-items: center;
+    background-color: aquamarine;
+  }
+}
+@media screen and (max-width: 380px) and (max-width: 380px) {
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+  }
+}
+@media screen and (max-width: 380px) and (max-width: 380px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+  }
 }
 
-@media screen and (max-width: 380px){
-    .header     {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        background-color: aquamarine;
-    }
-
-@media screen and (max-width: 380px){
-    .productos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        background-color: aquamarine;
-    }
-}
-
-@media screen and (max-width: 380px){
-    .footer {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        background-color: aquamarine;
-    }
-}
-}
-
+/*# sourceMappingURL=estilos.css.map */
