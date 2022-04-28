@@ -1,0 +1,20 @@
+/*extend*/
+
+.fotosobrenosotros{
+    background-image: url(../assets/background/footer.jpg);
+}
+.texto{
+    padding: 20px 0px 0px 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.extend1{
+    @extend .fotosobrenosotros;
+}
+
+.extend2{
+    @extend .texto;
+}
+
+
