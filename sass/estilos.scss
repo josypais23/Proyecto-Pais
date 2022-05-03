@@ -3,29 +3,7 @@
 //variables
 
 $color-fondo: aquamarine;
-/*maps*/
 
-$paleta: (
-    'primario': rgb(96, 140, 153),
-    'secundario': blue,
-    'success': pink,
-);
-
-div{
-    background-color: map-get($map: $paleta, $key: 'primario');
-    color: map-get($map: $paleta, $key: 'success');
-}
-
-/*mixins*/
-
-@mixin crearbordes {
-    border: solid 5px black;
-    border-radius: 8px;
-}
-
-.contacto{
-    @include crearbordes()
-}
 
 header{
     background-color: $color-fondo;
